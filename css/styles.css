@@ -1,0 +1,7 @@
+ul#nav-ls li a {
+    padding: 10px;
+}
+
+ul#nav-ls li a:hover {
+    border-bottom: 1px solid black;
+}
