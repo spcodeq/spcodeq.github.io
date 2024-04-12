@@ -1,7 +1,33 @@
+/* GLOBAL STYLES */
+#header-nav, #main-pg, #footer-nav {
+    margin: auto;
+}
+
+/* HEADER STYLES */
+
+#navigation {
+    padding: 1em;
+}
+
 ul#nav-ls li a {
     padding: 10px;
 }
 
 ul#nav-ls li a:hover {
     border-bottom: 1px solid black;
+}
+
+/* MAIN CONTENT STYLES */
+#main-pg {
+    border: 1px solid black;
+}
+
+#profile-img img {
+    width: 250px;
+    height: 275px;
+    padding: 1em;
+}
+
+#about-me {
+    font-size: larger;
 }

@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timothy Franks Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css" />
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid justify-content-evenly">
+    <header id="header-nav" class="w-50 p3">
+        <nav id="navigation" class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#">Timothy Franks</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-                    <ul id="nav-ls" class="navbar-nav text-center me-auto mb-2 mb-lg-0">
+                    <ul id="nav-ls" class="navbar-nav text-right me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
@@ -35,10 +36,45 @@
         </nav>
     </header>
 
+    <section id="main-pg" class="w-50 p3 container-fluid">
+        <div class="row align-items-start">
+            <div id="profile-img" class="col" aria-hidden="true">
+                <img src="..." class="placeholder col-4" alt="...">
+                <p>About text will go here</p>
+            </div>
+            <div id="about-me" class="col">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, eos molestias similique architecto ipsum doloremque illo tempore ratione iusto iure? Sint necessitatibus odit facere ex porro fugit provident culpa quaerat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores fuga, ratione eaque cupiditate doloribus consectetur aspernatur impedit quidem nemo ad necessitatibus molestias cumque asperiores neque nostrum voluptatibus reprehenderit libero?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum pariatur dolorem iusto perspiciatis obcaecati odit aspernatur? Ullam, vel maiores, aliquid ab, quam tempore quasi perspiciatis quos nulla similique deserunt consequuntur?</p>
+            </div>
+        </div>
+    </section>
 
-
+    <footer id="footer-nav" class="text-center text-lg-start bg-body-tertiary text-muted w-50 p3">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Connect with me: </span>
+            </div>
+            
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </div>
+        </section>
+        <div class="text-center p-3">
+            &copy; 2024 Copyright <a class="text-body" href="http://spdcodeq.github.com">Timothy Franks</a>
+        </div>
+    </footer>
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/5441ffb567.js" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
