@@ -18,10 +18,6 @@ ul#nav-ls li a:hover {
 }
 
 /* MAIN CONTENT STYLES */
-#main-pg {
-    border: 1px solid black;
-}
-
 #profile-img img {
     width: 250px;
     height: 275px;
