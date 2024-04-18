@@ -1,4 +1,8 @@
 /* GLOBAL STYLES */
+body, html, * {
+    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+}
+
 #header-nav, #main-pg, #footer-nav {
     margin: auto;
 }
@@ -26,4 +30,22 @@ ul#nav-ls li a:hover {
 
 #about-me {
     font-size: larger;
+}
+
+.archive_item-title a {
+    margin-bottom: .25em;
+    font-size: .8em;
+    color: #52adc8;
+    box-sizing: border-box;
+    transition: all .2s ease-in-out;
+    text-decoration: underline;
+}
+
+li {
+    margin: .5em .5em 0 0;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: bold;
 }
